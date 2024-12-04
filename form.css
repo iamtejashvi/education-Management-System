@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* display: flex;justify-content: space-between; */
+}
+
+.containerf {
+    max-width: 450px;
+    margin: 8px;
+    margin-left: 300px;
+    padding: 50px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.container2{
+    height: 590px;
+    width: 900px;
+    margin: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 2px solid black; */
+    /* background-color: red; */
+    background-image: url("contact-girl-22-22-1000x1000.png");
+}
+
+.container2 img{
+    height: 200px;
+    width: 3000px;
+}
+.maincontainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 50px;
+    margin-left: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
